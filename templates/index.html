@@ -15,13 +15,20 @@
     <p>The local date and time is {{ moment(current_time).format('LLL') }}.</p>
     <p>That was {{ moment(current_time).fromNow(refresh=True) }}</p>
 
-    <div class="card" style="width: 18rem;">
-        <div class="card-header">
-            JS API's
+    <div class="card w-25">
+        <div class="card-body">
+            <div class="card-header">
+                <div class="card-title">
+                    JS API's
+                </div>
+            </div>
+            
+            <p class="card-text">This site uses the following Javascript API's.</p>
+
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Lodash: <div id='lodashversion'></div></li>
+            </ul>
         </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">Lodash: <div id='lodashversion'></div></li>
-        </ul>
     </div>
 
 </div>
