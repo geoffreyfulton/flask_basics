@@ -1,0 +1,25 @@
+{
+  "name": "flask_basics",
+  "version": "1.0.0",
+  "description": "NPM config for flask_basics project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoffreyfulton/flask_basics.git"
+  },
+  "author": "gfnx410",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/geoffreyfulton/flask_basics/issues"
+  },
+  "homepage": "https://github.com/geoffreyfulton/flask_basics#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
